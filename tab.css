@@ -1,0 +1,36 @@
+.bh-tab-container {
+  width: 500px;
+  height: 500px;
+  border: 2px solid #d4d4d4;
+}
+
+.bh-tab-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #d4d4d4;
+}
+
+
+.bh-tab {
+  list-style-type: none;
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #d4d4d4;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.bh-tab-active {
+  background: #d4d4d4;
+}
+
+.bh-tab-content {
+  display: none;
+}
+
+.bh-tab-content-active {
+  display: block;
+}
